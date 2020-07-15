@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WorldCreatorController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a365e" height="600.0" stroke="BLACK" strokeType="INSIDE" width="1200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="590.0" layoutX="5.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" width="1190.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.5666666666666668">
+               <stops>
+                  <Stop color="#237bcd" />
+                  <Stop color="#132e80" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+   </children>
+</Pane>
